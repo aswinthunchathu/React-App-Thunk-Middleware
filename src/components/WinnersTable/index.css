@@ -1,0 +1,17 @@
+.highlight-champion{
+    position: relative;
+    padding-right: 20px;
+}
+
+.highlight-champion:after{
+    font-family: "Font Awesome 5 Free";
+    content: "\f091";
+    font-weight: 900;
+    color: #ffc107;
+    font-size: 12px;
+    text-shadow: 1px 2px 1px rgba(0,0,0,.5);
+    position: absolute;
+    right: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+}

@@ -1,0 +1,45 @@
+.app-notification {
+    top: 0;
+    left: 0;
+    z-index: 99999;
+}
+
+.app-notification .notification-tile {
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.app-notification .notification-tile .notification-close {
+    font-size: 18px;
+    color: #fff;
+    opacity: .75;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.app-notification .notification-tile .notification-close:hover {
+    opacity: 1;
+}
+
+.example-enter {
+    height: 0;
+    display: block;
+    overflow: hidden;
+}
+
+.example-enter.example-enter-active {
+    opacity: 1;
+    transition: opacity 2s ease-in;
+}
+
+.example-leave {
+    opacity: 1;
+}
+
+.example-leave.example-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+}

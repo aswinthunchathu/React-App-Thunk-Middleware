@@ -1,0 +1,15 @@
+.section-loading{
+    min-height: 300px;
+}
+
+.section-loading .position-absolute {
+    z-index: 10000;
+    background-color: rgba(255, 255, 255, .9);
+}
+
+.section-loading .position-absolute img.loading-gif {
+    max-width: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
